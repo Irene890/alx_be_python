@@ -4,7 +4,7 @@ interest = 0.05
 
 monthlyincome =int(input('Enter your monthly income: '))
 monthlyexpenses =int(input('Enter your total monthly expenses: '))
-monthlysavings = monthlyincome - monthlyexpenses
+monthlysavings = int(monthlyincome - monthlyexpenses)
 
 projectedsavings = int(monthlysavings * 12 + (monthlysavings * 12 * interest))
 
