@@ -2,11 +2,11 @@
 # Script projects these savings over a year, assuming a fixed interest rate, to demonstrate compound interest’s effect on savings.
 interest = 0.05
 
-monthlyincome =int(input('Enter your monthly income: '))
-monthlyexpenses =int(input('Enter your total monthly expenses: '))
-monthlysavings = int(monthlyincome - monthlyexpenses)
+monthly_income =int(input('Enter your monthly income: '))
+monthly_expenses =int(input('Enter your total monthly expenses: '))
+monthly_savings = monthly_income - monthly_expenses
 
-projectedsavings = int(monthlysavings * 12 + (monthlysavings * 12 * interest))
+projected_savings = int(monthly_savings * 12 + (monthly_savings * 12 * interest))
 
-print (f"Your monthly savings are ${monthlysavings}.")
-print(f"Projected savings after one year, with interest, is: ${projectedsavings}.")
+print (f"Your monthly savings are ${monthly_savings}.")
+print(f"Projected savings after one year, with interest, is: ${projected_savings}.")
