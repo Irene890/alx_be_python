@@ -1,6 +1,5 @@
 # Prompts user current for weather conditions-sunny,cold,rainy
 # Provide clothing recommendations based on the input
-
 current_weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
 if current_weather == "sunny":
