@@ -1,0 +1,10 @@
+# for loop to generate and print the multiplication table for a given number.
+#  script will ask the user to enter a number, then use a for loop to print the multiplication table for that number from 1 to 10.
+
+number = int(input("Enter a number to see its multiplication table: "))
+
+for y in range(1,11):
+    z = number * y
+    print (f"{number} * {y} = {z}")
+
+
