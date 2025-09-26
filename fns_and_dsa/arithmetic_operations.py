@@ -27,5 +27,3 @@ def perform_operation():
                 print(f"Result: {result}")
         case _:
             print("I don't recognize that.")
-
-perform_operation()
