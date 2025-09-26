@@ -19,7 +19,7 @@ def perform_operation(num1, num2, operation):
         case "divide":
             if num2 == 0:
                 return"Sorry, please type another number other than 0"
-            else:
+            elif:
                 return num1 / num2
         case _:
             return"I don't recognize that."
