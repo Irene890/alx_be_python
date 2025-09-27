@@ -13,7 +13,7 @@ def display_menu():
     print("3. View the List")
     print("4. Exit")
 
-def selecting_shopping_list():
+def main():
     shopping_list = []
     
     while True:
@@ -46,3 +46,4 @@ def selecting_shopping_list():
             break
         else:
             print("Invalid choice. Please try again.")
+if __name__ == "__main__":
