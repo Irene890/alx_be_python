@@ -7,10 +7,10 @@
 # # Ensure your script handles invalid menu choices gracefully.
 
 def display_menu():
-    print("\nShopping List Manager")
-    print("1. Add the Item")
-    print("2. Remove the Item")
-    print("3. View the List")
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
     print("4. Exit")
 
 def main():
