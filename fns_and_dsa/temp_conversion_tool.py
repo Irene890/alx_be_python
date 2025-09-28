@@ -1,8 +1,8 @@
+# F to C conversion (5/9)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 # C to F conversion (9/5)
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
-# F to C conversion (5/9)
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 
 def convert_to_celsius(fahrenheit):
     return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
@@ -22,7 +22,7 @@ def main():
         if unit == 'F':
             # Convert F to C
             temp_conversion = convert_to_celsius(temp_data)
-            print(f"\nResult: {temp_data:.1f}°F is equal to {temp_conversion:.1f}°C.")
+            print(f"\nResult: {temp_data:.1f}°F is equal to {temp_conversion:.13f}°C.")
         elif unit == 'C':
             # Convert C to F
             temp_conversion = convert_to_fahrenheit(temp_data)
